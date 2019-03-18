@@ -1,5 +1,5 @@
 # security-al
-Wordpress Plugin Security
+Wordpress Plugin Security<br/>
 This is a plugin for security, initialy these snippets was in the function.php
 What is he doing ? 
 - Deleting author name in the comment section
