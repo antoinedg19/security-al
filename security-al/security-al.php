@@ -4,7 +4,7 @@ Plugin Name: Security Al
 Plugin URI: https://aldigirolamo.fr
 Description: This is a plugin for security info initialy in the function.php
 Author: Al Di Girolamo
-Version: 1.0
+Version: 1.2
 Author URI: https://aldigirolamo.fr
 */
 
