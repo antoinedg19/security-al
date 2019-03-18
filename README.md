@@ -1,6 +1,7 @@
 # security-al
 Wordpress Plugin Security<br/>
 This is a plugin for security, initialy these snippets was in the function.php
+<br/><br/>
 What is he doing ? 
 - Deleting author name in the comment section
 - Deleting the error infos from the login page 
