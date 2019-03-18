@@ -18,7 +18,7 @@ function remove_comment_author_class( $classes ) {
    add_filter( 'comment_class' , 'remove_comment_author_class' );
    // Désactivation des infos d'erreur de login
    function remove_login_error_msg() {
-    return 'Et alors...?';
+    return 'Erreur';
    }
    add_filter( 'login_errors', 'remove_login_error_msg' );
    // Désactivation XMLRPC
