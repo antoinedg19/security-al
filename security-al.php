@@ -2,9 +2,9 @@
 /*
 Plugin Name: Security Al
 Plugin URI: https://github.com/antoinedg19/security-al
-Description: This is a plugin for security info initialy in the function.php
+Description: Security Snippets (initialy in the function.php)
 Author: Al Di Girolamo
-Version: 1.4
+Version: 1.5
 Author URI: https://aldigirolamo.fr
 */
 
