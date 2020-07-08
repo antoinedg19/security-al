@@ -11,3 +11,4 @@ What is he doing ?
 - Deleting Wp version
 - Deleting rss flux and wp version in the rss flux
 - Deleting versions of js/css files
+- Add shortcode [email] to converts email addresses characters to HTML entities to block spam bots with antispambot function
