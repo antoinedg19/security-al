@@ -4,7 +4,7 @@ Plugin Name: Security Al
 Plugin URI: https://github.com/antoinedg19/security-al
 Description: Security Snippets (initialy in the function.php)
 Author: Al Di Girolamo
-Version: 1.7
+Version: 1.8
 Author URI: https://aldigirolamo.fr
 */
 
@@ -54,3 +54,11 @@ Author URI: https://aldigirolamo.fr
    }
    add_filter( 'style_loader_src', 'remove_ver_css_js', 9999 );
    add_filter( 'script_loader_src', 'remove_ver_css_js', 9999 );
+//Add shortcode [email] to converts email addresses characters to HTML entities to block spam bots with antispambot function
+function aldg_hide_email_shortcode( $atts , $content = null ) {
+  if ( ! is_email( $content ) ) {
+      return;
+  }
+  return '<a href="mailto:' . esc_attr( antispambot( $content, $hex_encoding = 1 ) ) . '">' . esc_html( antispambot( $content ) ) . '</a>';
+}
+add_shortcode( 'email', 'aldg_hide_email_shortcode' );
