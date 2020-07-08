@@ -4,7 +4,7 @@ Plugin Name: Security Al
 Plugin URI: https://github.com/antoinedg19/security-al
 Description: Security Snippets (initialy in the function.php)
 Author: Al Di Girolamo
-Version: 1.9
+Version: 1.9.1
 Author URI: https://aldigirolamo.fr
 */
 
